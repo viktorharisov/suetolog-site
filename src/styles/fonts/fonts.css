@@ -1,0 +1,7 @@
+@font-face {
+    font-family: '5by7';
+    src: url('./5by7.ttf') format('truetype'),
+    url('./5by7_b.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
