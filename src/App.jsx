@@ -1,15 +1,20 @@
 import { useState } from 'react'
+import Header from './components/header/Header'
+import './styles/common.css'
+import BlogFirst from "./components/blog-first/BlogFirst.jsx";
+import BlogSecond from "./components/blog-second/BlogSecond.jsx";
+import BlogThree from "./components/blog-three/BlogThree.jsx";
 
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-          <text>АЛООО</text>
-      </div>
+      <Header/>
+        <BlogFirst/>
+        <BlogSecond/>
+      <BlogThree/>
     </>
   )
 }

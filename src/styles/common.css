@@ -1,3 +1,12 @@
-body{
+h1{
     font-family: '5by7', serif;
+}
+
+body{
+    font-family: 'inter', sans-serif;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 30px;
 }
